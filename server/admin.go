@@ -24,11 +24,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/crunchydata/crunchy-proxy/common"
-	"github.com/crunchydata/crunchy-proxy/config"
-	pb "github.com/crunchydata/crunchy-proxy/server/serverpb"
-	"github.com/crunchydata/crunchy-proxy/util/grpcutil"
-	"github.com/crunchydata/crunchy-proxy/util/log"
+	"github.com/fx-hao/crunchy-proxy/common"
+	"github.com/fx-hao/crunchy-proxy/config"
+	pb "github.com/fx-hao/crunchy-proxy/server/serverpb"
+	"github.com/fx-hao/crunchy-proxy/util/grpcutil"
+	"github.com/fx-hao/crunchy-proxy/util/log"
 )
 
 type AdminServer struct {

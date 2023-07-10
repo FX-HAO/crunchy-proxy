@@ -19,12 +19,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/crunchydata/crunchy-proxy/common"
-	"github.com/crunchydata/crunchy-proxy/config"
-	"github.com/crunchydata/crunchy-proxy/connect"
-	"github.com/crunchydata/crunchy-proxy/pool"
-	"github.com/crunchydata/crunchy-proxy/protocol"
-	"github.com/crunchydata/crunchy-proxy/util/log"
+	"github.com/fx-hao/crunchy-proxy/common"
+	"github.com/fx-hao/crunchy-proxy/config"
+	"github.com/fx-hao/crunchy-proxy/connect"
+	"github.com/fx-hao/crunchy-proxy/pool"
+	"github.com/fx-hao/crunchy-proxy/protocol"
+	"github.com/fx-hao/crunchy-proxy/util/log"
 )
 
 type Proxy struct {

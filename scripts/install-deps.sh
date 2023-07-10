@@ -19,7 +19,7 @@ gem install --pre asciidoctor-pdf
 wget -O $HOME/bootstrap-4.5.0.zip http://laurent-laville.org/asciidoc/bootstrap/bootstrap-4.5.0.zip
 asciidoc --backend install $HOME/bootstrap-4.5.0.zip
 mkdir -p $HOME/.asciidoc/backends/bootstrap/js
-#cp $GOPATH/src/github.com/crunchydata/crunchy-containers/docs/bootstrap.js \
+#cp $GOPATH/src/github.com/fx-hao/crunchy-containers/docs/bootstrap.js \
 #$HOME/.asciidoc/backends/bootstrap/js/
 unzip $HOME/bootstrap-4.5.0.zip  $HOME/.asciidoc/backends/bootstrap/
 

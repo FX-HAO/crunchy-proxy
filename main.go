@@ -15,7 +15,7 @@ limitations under the License.
 package main
 
 import (
-	"github.com/crunchydata/crunchy-proxy/cli"
+	"github.com/fx-hao/crunchy-proxy/cli"
 )
 
 func main() {

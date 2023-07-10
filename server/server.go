@@ -18,8 +18,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/crunchydata/crunchy-proxy/config"
-	"github.com/crunchydata/crunchy-proxy/util/log"
+	"github.com/fx-hao/crunchy-proxy/config"
+	"github.com/fx-hao/crunchy-proxy/util/log"
 )
 
 type Server struct {

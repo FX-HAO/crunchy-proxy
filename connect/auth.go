@@ -22,9 +22,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/crunchydata/crunchy-proxy/config"
-	"github.com/crunchydata/crunchy-proxy/protocol"
-	"github.com/crunchydata/crunchy-proxy/util/log"
+	"github.com/fx-hao/crunchy-proxy/config"
+	"github.com/fx-hao/crunchy-proxy/protocol"
+	"github.com/fx-hao/crunchy-proxy/util/log"
 )
 
 /*
@@ -141,11 +141,11 @@ func handleAuthClearText(connection net.Conn) bool {
 
 // AuthenticateClient - Establish and authenticate client connection to the backend.
 //
-//  This function simply handles the passing of messages from the client to the
-//  backend necessary for startup/authentication of a connection. All
-//  communication is between the client and the master node. If the client
-//  authenticates successfully with the master node, then 'true' is returned and
-//  the authenticating connection is terminated.
+//	This function simply handles the passing of messages from the client to the
+//	backend necessary for startup/authentication of a connection. All
+//	communication is between the client and the master node. If the client
+//	authenticates successfully with the master node, then 'true' is returned and
+//	the authenticating connection is terminated.
 func AuthenticateClient(client net.Conn, message []byte, length int) (bool, error) {
 	var err error
 

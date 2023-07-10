@@ -21,7 +21,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	pb "github.com/crunchydata/crunchy-proxy/server/serverpb"
+	pb "github.com/fx-hao/crunchy-proxy/server/serverpb"
 )
 
 var stopCmd = &cobra.Command{
